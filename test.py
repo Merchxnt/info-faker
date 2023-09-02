@@ -1,0 +1,10 @@
+from faker import Faker
+fake = Faker()
+print(fake.name())
+print(fake.date_of_birth())
+print(fake.ssn())
+print(fake.address())
+print(fake.email())
+print(fake.country())
+print(fake.latitude(), fake.longitude())
+print(fake.url())
